@@ -1,0 +1,985 @@
+<!DOCTYPE html>
+
+
+
+  
+
+
+<html class="theme-next muse use-motion" lang="en">
+<head>
+  <meta charset="UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+<meta name="theme-color" content="#222">
+
+
+
+
+
+
+
+
+
+<meta http-equiv="Cache-Control" content="no-transform" />
+<meta http-equiv="Cache-Control" content="no-siteapp" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  <link href="/lib/fancybox/source/jquery.fancybox.css?v=2.1.5" rel="stylesheet" type="text/css" />
+
+
+
+
+
+
+
+<link href="/lib/font-awesome/css/font-awesome.min.css?v=4.6.2" rel="stylesheet" type="text/css" />
+
+<link href="/css/main.css?v=5.1.4" rel="stylesheet" type="text/css" />
+
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png?v=5.1.4">
+
+
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png?v=5.1.4">
+
+
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png?v=5.1.4">
+
+
+  <link rel="mask-icon" href="/images/logo.svg?v=5.1.4" color="#222">
+
+
+
+
+
+  <meta name="keywords" content="Hexo, NexT" />
+
+
+
+
+
+
+
+
+
+
+<meta name="description" content="*第25章 生产与增长* 本章主要考察人均真实GDP的国际数据。考察生产率以及考察生产率和一国采取的经济政策之间的联系 25.1 - ****人均真实GDP****数据表明各国生活水平差别很大 - ****增长率****衡量的是在正常的一年中人均真实GDP的增长速度 - 最富的国家不会一直富，最穷的国家也不会永远处于贫困状态 25.2 - ****生产率（productivity）****：每单位">
+<meta property="og:type" content="article">
+<meta property="og:title" content="经济学原理笔记">
+<meta property="og:url" content="http://example.com/2022/03/14/%E7%BB%8F%E6%B5%8E%E5%AD%A6%E5%8E%9F%E7%90%86%E7%AC%94%E8%AE%B0/index.html">
+<meta property="og:site_name" content="Hexo">
+<meta property="og:description" content="*第25章 生产与增长* 本章主要考察人均真实GDP的国际数据。考察生产率以及考察生产率和一国采取的经济政策之间的联系 25.1 - ****人均真实GDP****数据表明各国生活水平差别很大 - ****增长率****衡量的是在正常的一年中人均真实GDP的增长速度 - 最富的国家不会一直富，最穷的国家也不会永远处于贫困状态 25.2 - ****生产率（productivity）****：每单位">
+<meta property="og:locale" content="en_US">
+<meta property="og:image" content="https://s1.ax1x.com/2022/03/14/bXpX3n.png">
+<meta property="og:image" content="https://s1.ax1x.com/2022/03/14/bX9aVS.png">
+<meta property="og:image" content="https://s1.ax1x.com/2022/03/14/bX9XIe.png">
+<meta property="og:image" content="https://s1.ax1x.com/2022/03/14/bXV8ns.png">
+<meta property="og:image" content="https://s1.ax1x.com/2022/03/14/bXVd9U.png">
+<meta property="og:image" content="https://s1.ax1x.com/2022/03/14/bXVW9O.png">
+<meta property="og:image" content="https://s1.ax1x.com/2022/03/14/bXZpbn.png">
+<meta property="og:image" content="https://s1.ax1x.com/2022/03/14/bXZtrd.png">
+<meta property="og:image" content="https://s1.ax1x.com/2022/03/14/bXZgqs.png">
+<meta property="og:image" content="https://s1.ax1x.com/2022/03/14/bXZozF.png">
+<meta property="og:image" content="https://s1.ax1x.com/2022/03/14/bXZzRO.png">
+<meta property="og:image" content="https://s1.ax1x.com/2022/03/14/bXekdI.png">
+<meta property="og:image" content="https://s1.ax1x.com/2022/03/14/bXeeW8.png">
+<meta property="og:image" content="https://s1.ax1x.com/2022/03/14/bXe0m9.png">
+<meta property="og:image" content="https://s1.ax1x.com/2022/03/14/bXm9hV.png">
+<meta property="og:image" content="https://s1.ax1x.com/2022/03/14/bXmVB9.png">
+<meta property="og:image" content="https://s1.ax1x.com/2022/03/14/bXm1je.png">
+<meta property="og:image" content="https://s1.ax1x.com/2022/03/14/bXmlcD.png">
+<meta property="og:image" content="https://s1.ax1x.com/2022/03/14/bXmvvD.png">
+<meta property="og:image" content="https://s1.ax1x.com/2022/03/14/bXmzKe.png">
+<meta property="og:image" content="https://s1.ax1x.com/2022/03/14/bXni5t.png">
+<meta property="og:image" content="https://s1.ax1x.com/2022/03/14/bXn82T.png">
+<meta property="og:image" content="https://s1.ax1x.com/2022/03/14/bXn3GV.png">
+<meta property="og:image" content="https://s1.ax1x.com/2022/03/14/bXnwI1.png">
+<meta property="og:image" content="https://s1.ax1x.com/2022/03/14/bXnsxO.png">
+<meta property="og:image" content="https://s1.ax1x.com/2022/03/14/bXnfII.png">
+<meta property="og:image" content="https://s1.ax1x.com/2022/03/14/bXnIRf.png">
+<meta property="article:published_time" content="2022-03-14T09:10:07.000Z">
+<meta property="article:modified_time" content="2022-03-14T10:01:43.656Z">
+<meta property="article:author" content="John Doe">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://s1.ax1x.com/2022/03/14/bXpX3n.png">
+
+
+
+<script type="text/javascript" id="hexo.configurations">
+  var NexT = window.NexT || {};
+  var CONFIG = {
+    root: '',
+    scheme: 'Muse',
+    version: '5.1.4',
+    sidebar: {"position":"left","display":"post","offset":12,"b2t":false,"scrollpercent":false,"onmobile":false},
+    fancybox: true,
+    tabs: true,
+    motion: {"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},
+    duoshuo: {
+      userId: '0',
+      author: 'Author'
+    },
+    algolia: {
+      applicationID: '',
+      apiKey: '',
+      indexName: '',
+      hits: {"per_page":10},
+      labels: {"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}
+    }
+  };
+</script>
+
+
+
+  <link rel="canonical" href="http://example.com/2022/03/14/经济学原理笔记/"/>
+
+
+
+
+
+  <title>经济学原理笔记 | Hexo</title>
+  
+
+
+
+
+
+
+
+
+<meta name="generator" content="Hexo 6.0.0"></head>
+
+<body itemscope itemtype="http://schema.org/WebPage" lang="en">
+
+  
+  
+    
+  
+
+  <div class="container sidebar-position-left page-post-detail">
+    <div class="headband"></div>
+
+    <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-wrapper">
+  <div class="site-meta ">
+    
+
+    <div class="custom-logo-site-title">
+      <a href="/"  class="brand" rel="start">
+        <span class="logo-line-before"><i></i></span>
+        <span class="site-title">Hexo</span>
+        <span class="logo-line-after"><i></i></span>
+      </a>
+    </div>
+      
+        <p class="site-subtitle"></p>
+      
+  </div>
+
+  <div class="site-nav-toggle">
+    <button>
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+    </button>
+  </div>
+</div>
+
+<nav class="site-nav">
+  
+
+  
+    <ul id="menu" class="menu">
+      
+        
+        <li class="menu-item menu-item-home">
+          <a href="/%20" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-home"></i> <br />
+            
+            Home
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-archives">
+          <a href="/archives/%20" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-archive"></i> <br />
+            
+            Archives
+          </a>
+        </li>
+      
+
+      
+    </ul>
+  
+
+  
+</nav>
+
+
+
+ </div>
+    </header>
+
+    <main id="main" class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          <div id="content" class="content">
+            
+
+  <div id="posts" class="posts-expand">
+    
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://example.com/2022/03/14/%E7%BB%8F%E6%B5%8E%E5%AD%A6%E5%8E%9F%E7%90%86%E7%AC%94%E8%AE%B0/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Hexo">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">经济学原理笔记</h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">Posted on</span>
+              
+              <time title="Post created" itemprop="dateCreated datePublished" datetime="2022-03-14T17:10:07+08:00">
+                2022-03-14
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        <p><em><strong>*第25章 生产与增长*</strong></em></p>
+<p>本章主要考察人均真实GDP的国际数据。考察生产率以及考察生产率和一国采取的经济政策之间的联系</p>
+<p>25.1</p>
+<p>- ****人均真实GDP****数据表明各国生活水平差别很大</p>
+<p>- ****增长率****衡量的是在正常的一年中人均真实GDP的增长速度</p>
+<p>- 最富的国家不会一直富，最穷的国家也不会永远处于贫困状态</p>
+<p>25.2</p>
+<p>- ****生产率（productivity）****：每单位劳动投入所生产的物品和服务的数量</p>
+<p>- 生产率的增长是生活水平提高的关键决定因素</p>
+<p>- GDP同时衡量两件事：经济中所有人赚到的总收入和经济中用于物品与服务产出的总支出，一个经济的收入就是该经济的支出</p>
+<p>- 一国的生活水平取决于它生产物品与服务的能力</p>
+<p>- 生产率的决定因素</p>
+<p>****物质资本****：用于生产物品与服务的设备和建筑物的存量</p>
+<p>****人力资本****：工人通过教育、培训和经验而获得的知识与技能</p>
+<p>****自然资源****：由自然界提供的用于生产物品与服务的投入，如土地、河流和矿藏</p>
+<p>****技术知识****：社会对生产物品与服务的最好方法的了解（分为公共知识和私人拥有的）</p>
+<p>人力资本和技术知识的区分：技术知识是指社会对世界如何运行的理解，人力资本是指把这种理解传递给劳动力的资源消耗</p>
+<p>25.3</p>
+<p>- 提高一国储蓄的增加导致资本存量的增加，引起生产率和GDP的增长</p>
+<p>- ****收益递减（diminishing returns）****：随着投入量的增加，每一单位额外投入得到的收益减少的特性</p>
+<p>- 资本的收益递减的另一层含义：在其他条件相同的情况下，如果一国开始时较穷，它就更容易实现迅速增长。这种初始状况对随后增长的影响有时成为追赶效应</p>
+<p>****追赶效应（catch-up effect）****：开始时贫穷的国家倾向于比开始时富裕的国家增长更快的特征</p>
+<p>- 外国人的投资也可以带来资本的增长</p>
+<p>****国外直接投资****：由外国实体拥有并经营的资本投资</p>
+<p>****国外有价证券投资****：由国内居民经营的投资</p>
+<p>但是来自国外的投资对经济繁荣的所有衡量指标的影响并不相同</p>
+<p>在欠发达国家当顾问的经济学家都提倡鼓励来自外国投资的政策 这往往意味着取消政府对外国人拥有的国内资本的限制</p>
+<p>- 鼓励资本流入穷国的一个组织是世界银行</p>
+<p>- 教育是人力资本投资</p>
+<p>一些人认为，人力资本对于经济增长特别重要，因为人力资本带来正外部性</p>
+<p>外部性是一个人的行为对旁观者福利的影响</p>
+<p>穷国面临人才外流的问题</p>
+<p>- 人力资本也可以用来描述另一种类型的对人的投资：使人口更健康的支出</p>
+<p>同等条件下，更健康的工人的生产率更高</p>
+<p>身高使生产率的衡量指标之一</p>
+<p>- 决策者可以促进经济增长的另一种方法是保护产权和促进政治稳定（这个问题正是市场经济如何运行的核心问题）</p>
+<p>- 市场经济通过市场价格实现协调</p>
+<p>价格制度发生作用的重要前提的经济中广泛尊重产权</p>
+<p>对于产权的一个威胁是政治的不稳定性</p>
+<p>- 经济繁荣部分取决于政治繁荣</p>
+<p>- 世界上最穷的一些国家企图通过实施内向型经济政策来实现更快的经济增长</p>
+<p>然而今天大多数经济学家相信，穷国实行与世界经济融为一体的外向型政策会使其情况变得更好</p>
+<p>- 一国与其他国的贸易量不仅取决于政府政策，还取决于地理环境</p>
+<p>- 知识是公共物品</p>
+<p>- 政府政策鼓励研究的一种方式是提供研究资金，减税，另一种方式是通过专利制度</p>
+<p>-人口增长导致自然资源紧张、稀释了资本存量和促进技术进步</p>
+<p><em><strong>*第*</strong></em><em><strong>*26*</strong></em><em><strong>*章*</strong></em> <em><strong>*储蓄、投资和金融体系*</strong></em></p>
+<p>26.1</p>
+<p>****金融体系****：经济中促使一个人的储蓄与另一个人的投资相匹配的一些机构。</p>
+<p>****永久债券****：永远支付利息，不偿还本金</p>
+<p>长期债券的风险比短期大</p>
+<p>****股票****：企业部分所有权的索取权。</p>
+<p>股票持有者和债券持有者的区别：债券持有者只能拿利息，股票持有者当公司利润丰厚时他们就享有这种利润的利益</p>
+<p>****共同基金****：是一个向公众出售股份，并用于收入来购买各种股票，债券，或同时包括股票和债券的选择，即资产组合的机构。</p>
+<p>26.2</p>
+<p>国民收入账户中的储蓄与投资：</p>
+<p>Y&#x3D; C+I+G+NX</p>
+<p>封闭经济不进行国际贸易：</p>
+<p>Y&#x3D;C+I+G</p>
+<p>在金融市场的意义：</p>
+<p>I&#x3D;Y-C-G</p>
+<p>S&#x3D;I</p>
+<p>****私人储蓄****：家庭在税后和消费后剩下的收入</p>
+<p>****公共储蓄****：政府在支付其支出后剩下的税收收入</p>
+<p>对于整个经济体来说，储蓄必定等于投资</p>
+<p>26.3</p>
+<p>****可贷资金市场****：想储蓄的人提供资金 想借钱投资的人可以借贷 的市场</p>
+<p>储蓄是可贷资金市场的供给来源</p>
+<p>投资是可贷资金市场的需求来源</p>
+<p>如果利率低—供给量会小于需求量—鼓励贷款者提高利率–高利率鼓励储蓄</p>
+<p>政策1:储蓄激励</p>
+<p>对储蓄征收的税额比现行税法下的税额小—家庭减少消费 多储蓄—可贷资金供给增加</p>
+<p><a target="_blank" rel="noopener" href="https://imgtu.com/i/bXpX3n"><img src="https://s1.ax1x.com/2022/03/14/bXpX3n.png" alt="bXpX3n.png"></a></p>
+<p>政府预算代表着公共储蓄</p>
+<p>赤字–国民储蓄减少–政府借款为预算赤字筹资–减少可贷资金供给—s 线向左移</p>
+<p>利率变高—由政府借款引起的投资减少称为挤出</p>
+<p>盈余–增加供给–降低利率—刺激投资</p>
+<p><strong>第2金融学的基本工具</strong></p>
+<p><a target="_blank" rel="noopener" href="https://imgtu.com/i/bX9aVS"><img src="https://s1.ax1x.com/2022/03/14/bX9aVS.png" alt="bX9aVS.png"></a></p>
+<p>- 保险市场</p>
+<p>（从经济角度来看，保险的作用不是消除生活中的固有风险，而是更有效的分摊风险）</p>
+<p>- 保险市场的分摊风险能力受两类问题制约</p>
+<p>（1）逆向选择：高风险的人比低风险的人更可能申请保险，因为高风险的人从保险的保护中获益更大</p>
+<p>（2） 道德风险：人们在购买保险之后，对他们谨慎从事以规避风险的激励小了，因为他们知道保险公司将会补偿大部分损失。</p>
+<p>企业特有的风险多元化</p>
+<p>- <strong>多元化</strong>：通过用大量不相关的小风险来代替一种风险来降低风险</p>
+<p><a target="_blank" rel="noopener" href="https://imgtu.com/i/bX9XIe"><img src="https://s1.ax1x.com/2022/03/14/bX9XIe.png" alt="bX9XIe.png"></a></p>
+<p>资产评估</p>
+<p>- ****基本面分析****：为决定一家公司的价值而对其会计报表和未来前景进行的研究</p>
+<p>有效市场假说</p>
+<p>- ****有效市场假说****：认为资产价格反映了关于一种资产价值的所有的公开的，可获得的信息的理论</p>
+<p>- ****信息有效****：以理性方式反映有可获得的信息的有关资产价格的描述</p>
+<p>- ****随机游走****：一种不可预期的变量变动和路径</p>
+<p>市场非理性</p>
+<p> <em><strong>*第*</strong></em><em><strong>*28*</strong></em><em><strong>*章 失业*</strong></em></p>
+<p>- 经济的****自然失业率****指经济中正常情况下存在的事业量。</p>
+<p>- ****周期性失业****指失业率围绕自然失业率逐年波动，它与经济活动的短期上升与下降密切关。</p>
+<p>- 就业者：包括在家族企业里工作但拿不到报酬的人。</p>
+<p>- 失业者：四周内努力但是没有找到工作。</p>
+<p>- 非劳动力</p>
+<p>- 劳动力 &#x3D; 就业者人数 + 失业者人数</p>
+<p>- 失业率 &#x3D; 失业者人数&#x2F;劳动力 * 100%</p>
+<p>- 劳动力参工率 &#x3D; 劳动力&#x2F;成年人口 * 100%</p>
+<p>- ****自然失业率****：失业率围绕它而波动的正常失业率。</p>
+<p>- ****周期性失业****：失业率对自然失业率的背离。</p>
+<p><a target="_blank" rel="noopener" href="https://imgtu.com/i/bXV8ns"><img src="https://s1.ax1x.com/2022/03/14/bXV8ns.png" alt="bXV8ns.png"></a></p>
+<p>- 女性作用发生变化的原因：</p>
+<p>（1）新技术减少了完成日常家务劳动所需的时间量</p>
+<p>（2）有效的生育控制减少了普通家庭家庭生儿育女的数量</p>
+<p>（3）政治与社会态度的变化</p>
+<p>- 男性劳动力参工率下降的原因：</p>
+<p>（1）年轻男性上学时间更长</p>
+<p>（2）老年男性退休更早活得更长</p>
+<p>（3）更多父亲留在家照料子女</p>
+<p>- 在整个失业队伍中，几乎有一半失业最后是以失业者离开劳动力队伍而结束的。</p>
+<p>- 一些人没有努力寻找工作，但称自己为“失业者”领取失业补助。</p>
+<p>- 丧失信心的工人(discouraged workers)：想工作但已放弃寻找工作的人。</p>
+<p>- 大多数失业是短期的，而在任何一个既定时间段所观察到的大多数失业又是长期的。</p>
+<p>Eg: 每周4个失业者，3个都是长期失业，1个很快可以找到工作。一年会见了55个失业工人，52人失业一周，3人失业一年。95%的失业在1周内结束，任一时刻75%的失业是由全年失业的人引起的。</p>
+<p>- ****摩擦性失业****：由于工人寻找最和自己嗜好和技能的工作需要时间而引起的失业。</p>
+<p>- 劳工的供给大于需求时会出现****结构性失业****：由于某些劳动市场上可提供的工作岗位数不足以为每个想工作的人提供工作而引起的失业。</p>
+<p>- 就业岗位数：</p>
+<p>（1）在不同公司做两份兼职：在家庭户调查中是一个就业人口，在工商户调查中算两个工作职位。</p>
+<p>（2）自己做生意：在家庭户调查中是就业人口，在工商户调查中不被记入，工商户只针对领工资的雇员。</p>
+<p>- ****寻找工作****：在工人的爱好与技能既定时工人寻找适当工作的过程，是使工人与适当工作相匹配的过程。</p>
+<p>- 各行业或各地区之间的需求构成变动称为****部门转移****。由于工人在新部门找到工作需要时间，所以部门转移暂时引起失业。</p>
+<p>- 摩擦性失业不可避免，随着侧重产业的转移，一些企业创造了工作岗位，而另一些企业中的工作岗位消失了。这一过程的结果是达到更高的生产率和生活水平，但是衰落的产业的工人失去工作。</p>
+<p>- 有关工作机会与工人可获得性的信息传播得越快，工人与企业匹配得也就越快；如果政策可以减少失业工人寻找新工作所需的时间，就可以降低经济中的自然失业率。</p>
+<p>- 政府的方法：</p>
+<p>（1）管理就业机构，该机构发布有关职位空缺的信息。</p>
+<p>（2）公共培训计划，使处于衰落行业的工人易于转移到增长行业中，帮助不利地位的群体脱贫。</p>
+<p>- <em><strong>*失业保险（unemployment*</strong></em> ****insurance）****：当工人失业时为他们提供部分收入保障的政府计划，仅仅向那些由于以前的雇主不再需要其技能而被解雇的失业者支付补助。</p>
+<p>- 失业保险减轻了失业的痛苦，达到了降低工人面临的收入不确定性的主要目标，但也增加了失业量。</p>
+<p>- 就业为什么下滑：</p>
+<p>（1）食品券</p>
+<p>（2）用于补助残疾人的社会保障支出</p>
+<p>（3）佩尔助学金</p>
+<p>（4）广泛的失业补助</p>
+<p>- 如果工资由于任何一种原因高于均衡水平，就会导致失业。</p>
+<p><a target="_blank" rel="noopener" href="https://imgtu.com/i/bXVd9U"><img src="https://s1.ax1x.com/2022/03/14/bXVd9U.png" alt="bXVd9U.png"></a></p>
+<p>- ****工会（union）****是一个与雇主就工资、津贴和工作条件进行谈判的工人协会。</p>
+<p>- 工会是一种卡特尔。与任何卡特尔一样，工会是卖者共同行动以希望发挥其共同市场势力的一个集团。</p>
+<p>- 工会与企业就就业条件达成一致的过程称为<em><strong>*集体谈判（collective*</strong></em> ****bargaining）****。</p>
+<p>- ****罢工****：工会组织工人从企业撤出劳动。</p>
+<p>- 通常认为公会是引起不同工人集团之间——从工会高工资中得到好处的****局内人*<em><strong>与没有得到工会工作岗位的</strong></em>*局外人****之间——冲突的原因。</p>
+<p>- 支持公会：</p>
+<p>与市场实力抗衡，平衡企业的市场势力，帮助企业有效地对工人的利益作出反应，工会代表工人在一些问题上的观点使企业提供这些工作特性的是当组合，帮助企业保有一支乐观而富有生产效率的劳动力队伍</p>
+<p>- 反对工会：</p>
+<p>无效率，高工资使有工会组织的企业的就业降低到有效率的竞争水平之下，不公平，一些工人的获益是以另一些工人的损失为代价的</p>
+<p>- <em><strong>*效率工资（efficiency*</strong></em> ****wages）****：企业为了提高工人的生产率而支付的高于均衡水平的工资。</p>
+<p>- 效率工资包括：</p>
+<p>（1）工人健康</p>
+<p>（2）工人流动率：培训新工人是有成本的</p>
+<p>（3）工人素质：高工资吸引更好的工人</p>
+<p>（4）工人努力程度：高工资使工人渴望保持他们的工作，从而激励</p>
+<p><em><strong>*第29章 货币制度*</strong></em></p>
+<p>- 物物交换：用一种物品或服务交换另一种物品或服务。在这种经济中，交易要求需求的双向一致性——一种不大可能的偶然巧合。</p>
+<p>- 货币（money）是经济中人们经常用于相互购买物品与服务的一组资产。</p>
+<p>- 货币的三种职能：交换媒介、计价单位、价值储藏手段</p>
+<p>- <em><strong>*交换媒介（medium*</strong></em> <em><strong>of*</strong></em> ****exchange）****是买者在购买物品与服务时给予卖者的东西。</p>
+<p>- <em><strong>*计价单位（unit*</strong></em> <em><strong>*of*</strong></em> ****account）****是人们用来表示价格和记录债务的标准。</p>
+<p>- <em><strong>*价值储藏手段（store*</strong></em> <em><strong>*of*</strong></em> ****value）****是人们可以用来把现在的购买力转变为未来的购买力的东西。</p>
+<p>- ****财富****指所有价值储藏的总量，包括货币和非货币资产。</p>
+<p>- ****流动性****：一种资产兑换为经济中交换媒介的容易程度。</p>
+<p>- 经济中流通的货币量称为****货币存量****。</p>
+<p>- ****通货（currency）****：公众手中持有的纸笔钞票和铸币。</p>
+<p>- <em><strong>*活期存款（demand*</strong></em> ****deposits）****：储户可以通过开支票而随时支取的银行账户余额。</p>
+<p>- 货币存量的衡量指标：</p>
+<p><a target="_blank" rel="noopener" href="https://imgtu.com/i/bXVW9O"><img src="https://s1.ax1x.com/2022/03/14/bXVW9O.png" alt="bXVW9O.png"></a></p>
+<p>- 信用卡不是货币，因为信用卡是一种延期支付方式。</p>
+<p>- ****中央银行****：为了监督银行体系和调节经济中的货币量而设计的机构。</p>
+<p>- ****联邦储蓄局****：美国的中央银行。</p>
+<p>- 美联储的两项工作：</p>
+<p>（1）管制银行并确保银行体系的正常运行。</p>
+<p>（2）控制经济中可以得到的货币量，这种货币量称为****货币供给（money supply）****。决策者关于货币供给的决策构成货币政策（monetary policy）</p>
+<p>- 美联储的主要工具是公开市场操作——买卖美国政府债券。</p>
+<p>- 银行得到但没有贷出去的存款称为****准备金（reserve）****。</p>
+<p>- 如果银行以准备金形式持有所有存款，银行就不影响货币供给。</p>
+<p>- ****部分准备金银行（fractional reserve banking）****：只把部分存款作为准备金的银行制度。</p>
+<p>- 银行作为准备金持有的存款比例叫做****准备金率（reserve ratio）****。</p>
+<p>- 当银行只把部分存款作为准备金时，银行创造了货币。当一个银行创造了货币资产时，它也创造了相应的借款人的负债。经济更具流动性，但是经济并没有比以前更富。</p>
+<p>- 银行体系用1美元准备金所产生的货币量称为****货币乘数（money multiplier）****。货币乘数是准备金率的倒数。</p>
+<p>- 准备金率越高，每个存款银行贷出的款越少，货币乘数越小。</p>
+<p>- ****银行资本（bank capital）****：银行的所有者投入机构的资源。</p>
+<p>- 所有者权益的价值等于银行资产（准备金、贷款和有价证券）的价值减负债（存款和债务）的价值。</p>
+<p>- ****杠杆（leverage）****：将借到的货币追加到用于投资的现有资金上。</p>
+<p>- ****杠杆率（leverage ratio）****是银行的总资产与银行资本的比率。</p>
+<p><a target="_blank" rel="noopener" href="https://imgtu.com/i/bXZpbn"><img src="https://s1.ax1x.com/2022/03/14/bXZpbn.png" alt="bXZpbn.png"></a></p>
+<p>- 资本需要量（capital requirement）：政府管制确定的最低银行资本量。</p>
+<p>- 美联储影响准备金量：</p>
+<p>（1）<em><strong>*公开市场操作（open*</strong></em><em><strong>*-*</strong></em><em><strong>*market*</strong></em> ****operations）****：美联储买卖美国政府债券。</p>
+<p>（2）美联储向银行发放贷款</p>
+<p>i. 贴现率（discount rate）：美联储向银行发放贷款的利率。</p>
+<p>ii. 短期拍卖：政府确定想借给银行的资金量，并确定合乎资格的银行，然后拍卖借出这些资金。贷款给出价最高的合乎资格者——给那些有可接受的抵押品而且愿意支付最高利率的银行。</p>
+<p>- 美联储影响准备金率：</p>
+<p>（1）法定准备金（reserve requirement）：关于银行必须根据其存款持有的最低准备金量的规定。——可能会干扰银行的经营。</p>
+<p>（2）支付准备金利息：准备金利率越高，银行选择持有的准备金越多，货币乘数越小，货币供给越少。</p>
+<p>- 美联储面临的问题：</p>
+<p>（1）美联储不能控制家庭选择以银行存款的方式持有的货币量。</p>
+<p>（2）美联储不能控制银行选择的贷款量。</p>
+<p>- 联邦存款保险公司（FDIC）。</p>
+<p>- 联邦基金率（federal funds rate）：银行向另一家银行进行隔夜贷款时的利率。</p>
+<p>- 联邦基金利率目标的下降意味着货币供给的扩张，而联邦基金利率的上升意味着货币供给的紧缩。</p>
+<p><em><strong>*第*</strong></em><em><strong>*30*</strong></em><em><strong>*章 货币增长与通货膨胀*</strong></em></p>
+<p>- 物价总水平的上升称为****通货膨胀****。</p>
+<p>- 物价总水平的下降称为<em><strong>*通货紧缩*</strong></em> —— 降低了人们偿还债务的能力。</p>
+<p>- 极高的通货膨胀率（24000%）被称为****超速通货膨胀****。</p>
+<p>- 关于通货膨胀的第一种观点就是它是关于货币价值的，而不是关于物品价值的。</p>
+<p>- 通货膨胀是一种广泛的经济现象，它涉及的首要并且最重要的是经济中交换媒介的价值。</p>
+<p>- 从两个方面看待经济中的物价总水平：</p>
+<p>（1）一篮子物品与服务的价格</p>
+<p>（2）货币价值的一种衡量指标</p>
+<p>- P是用消费物价指数或GDP平减指数所衡量的物价水平，那么P也衡量了购买一篮子物品与服务所需要的美元数量；用一美元所能购买的物品与服务量等于1&#x2F;P。P是用货币衡量的物品与服务的价格，1&#x2F;P就是用物品与服务衡量的货币价值。</p>
+<p>- 增加货币供给：</p>
+<p>（1）美联储购买政府债券</p>
+<p>（2）银行把一部分钱作为准备金并把其他的贷出去，那么货币乘数就发生了作用，这些公开市场操作对货币供给的影响甚至就回更大。</p>
+<p>- 货币需求反映了人们想以流动性形式持有的财富量，货币需求量取决于人们能够从债券中赚取的利率。</p>
+<p>- 物价水平上升（货币价值下降）增加了货币需求量。</p>
+<p>- 在长期中，物价总水平会调整到使货币需求等于货币供给的水平。</p>
+<p>- 货币需求曲线向右下方倾斜，因为当每一美元买的东西减少时人们想持有的货币量就更多。</p>
+<p><a target="_blank" rel="noopener" href="https://imgtu.com/i/bXZtrd"><img src="https://s1.ax1x.com/2022/03/14/bXZtrd.png" alt="bXZtrd.png"></a></p>
+<p>- <em><strong>*货币数量论（quantity*</strong></em> <em><strong>*theory*</strong></em> <em><strong>*of*</strong></em> ****money）****：经济中可得到的货币量决定了货币的价值，货币量的增长率决定通货膨胀率的理论。</p>
+<p>- 变化过程：</p>
+<p>货币注入 → 超额货币供给 → 货币供给量超过需求量 → 利用超额货币供给购买物品或服务&#x2F;存入银行、向其他人发放贷款（→增加其他人对物品或服务的需求） → 生产物品与服务的能力没有改变 → 物品与服务的价格上升 → 物价水平上升 → 增加了货币需求量 → 新的均衡</p>
+<p>- ****名义变量****：按货币单位衡量的变量</p>
+<p>- ****真实变量****：按实物单位衡量的变量</p>
+<p>- ****古典二分法****：名义变量和真实变量的理论区分。</p>
+<p>****相对价格****是一种东西与另一种东西相比的价格，美元价格是名义变量，而相对价格是真实变量。</p>
+<p>****真实工资****是真实变量，它衡量经济中用物品与服务交换一单位劳动的比率。</p>
+<p>****真实利率****是真实变量，它衡量用今天的物品与服务交换未来的物品与服务的比率。</p>
+<p>- 与货币供给量无关的重要结论：</p>
+<p>（1）经济中物品与服务的生产取决于生产率和要素供给。</p>
+<p>（2）真实利率的调整使可贷资金的供求平衡。</p>
+<p>（3）真实工资的调整使劳动的供求平衡。</p>
+<p>- 根据古典分析，货币供给变动影响名义变量而不影响真实变量。货币供给变动对真实变量的无关性被称为<em><strong>*货币中性（monetary*</strong></em> ****neutrality）****。</p>
+<p>- 古典分析在长期中有效，但在短期的适用性是存在问题的。</p>
+<p><a target="_blank" rel="noopener" href="https://imgtu.com/i/bXZgqs"><img src="https://s1.ax1x.com/2022/03/14/bXZgqs.png" alt="bXZgqs.png"></a></p>
+<p><a target="_blank" rel="noopener" href="https://imgtu.com/i/bXZozF"><img src="https://s1.ax1x.com/2022/03/14/bXZozF.png" alt="bXZozF.png"></a></p>
+<p><a target="_blank" rel="noopener" href="https://imgtu.com/i/bXZzRO"><img src="https://s1.ax1x.com/2022/03/14/bXZzRO.png" alt="bXZzRO.png"></a></p>
+<p><a target="_blank" rel="noopener" href="https://imgtu.com/i/bXekdI"><img src="https://s1.ax1x.com/2022/03/14/bXekdI.png" alt="bXekdI.png"></a></p>
+<p><a target="_blank" rel="noopener" href="https://imgtu.com/i/bXeeW8"><img src="https://s1.ax1x.com/2022/03/14/bXeeW8.png" alt="bXeeW8.png"></a></p>
+<p><a target="_blank" rel="noopener" href="https://imgtu.com/i/bXe0m9"><img src="https://s1.ax1x.com/2022/03/14/bXe0m9.png" alt="bXe0m9.png"></a></p>
+<p><a target="_blank" rel="noopener" href="https://imgtu.com/i/bXm9hV"><img src="https://s1.ax1x.com/2022/03/14/bXm9hV.png" alt="bXm9hV.png"></a></p>
+<p><a target="_blank" rel="noopener" href="https://imgtu.com/i/bXmVB9"><img src="https://s1.ax1x.com/2022/03/14/bXmVB9.png" alt="bXmVB9.png"></a></p>
+<p><a target="_blank" rel="noopener" href="https://imgtu.com/i/bXm1je"><img src="https://s1.ax1x.com/2022/03/14/bXm1je.png" alt="bXm1je.png"></a><br><a target="_blank" rel="noopener" href="https://imgtu.com/i/bXmlcD"><img src="https://s1.ax1x.com/2022/03/14/bXmlcD.png" alt="bXmlcD.png"></a></p>
+<p><em><strong>*第3*</strong></em><em><strong>*4*</strong></em><em><strong>*章*</strong></em> <em><strong>*货币政策和财政政策对总需求的影响*</strong></em></p>
+<p>政府的政策工具如何影响总需求曲线</p>
+<p>1货币政策（中央银行确定的货币供给）</p>
+<p>2财政政策（总统和国会确定的政府支出和税收水平）</p>
+<p>本章节更加关注这些政策工具如何使总需求曲线移动，以及如何影响短期中的宏观经济变量。</p>
+<p>一，货币政策如何影响总需求</p>
+<p>总需求曲线：表示在任何一种物价水平时物品与服务的总需求量</p>
+<p>D线向右下方倾斜的三种效应：1.财富效应</p>
+<p>​              2.利率效应（美国经济总需求曲线向右下方倾斜的主要原因）</p>
+<p>​    3.汇率效应</p>
+<p>流动性偏好理论：凯恩斯的理论，认为利率的调整使货币供给与货币需求平衡</p>
+<p>​     本质：供给和需求的应用</p>
+<p>利率【名义利率】通常报告的利率</p>
+<p>【真实利率】根据通货膨胀影响校正过的利率</p>
+<p>在没有通货膨胀的时候，这两个利率是相同的</p>
+<p>在之后的分析中，我们都假设预期的通货膨胀率不变（因为短期经济种的通货膨胀一般是稳定的）</p>
+<p>货币供给：流动性偏好理论的第一部分</p>
+<p>美联储通过公开市场操作买卖政府债券，它为债券支付的美元通常被存入银行，并且这些美元增加了银行的准备金。当它们出售政府债券时，它从这些债券中所得到的美元是从银行体系中提取出来的，从而减少了银行的准备金。银行的准备金的这些变动又引起银行发行贷款和创造货币能力的变化。</p>
+<p>这些在这章节里并不至关重要，我们假设说美联储直接控制了货币供给。，也就是说货币供给量不取决于其他经济变量，包括利率。因此不论利率是多少，货币供给量是相同的，用一条垂直的曲线表示固定的货币供给。</p>
+<p><a target="_blank" rel="noopener" href="https://imgtu.com/i/bXmvvD"><img src="https://s1.ax1x.com/2022/03/14/bXmvvD.png" alt="bXmvvD.png"></a></p>
+<p>货币需求：流动性偏好理论的第二部分</p>
+<p>​     #资产的流动性：该资产可以转换为经济中的交换媒介的难易程度。所以货币是可以得到的最具流动性的资产。根据流动性偏好理论，利率是持有货币的机会成本。利率上升增加了持有货币的成本，因此货币需求量就减少了。反之同理，因此货币需求曲线向右下方倾斜。所以根据流动性偏好理论，利率的调整使货币的供求平衡。</p>
+<p>货币市场的均衡：有一种利率交均衡利率，此时货币的需求量与供给量平衡 </p>
+<p> <a target="_blank" rel="noopener" href="https://imgtu.com/i/bXmzKe"><img src="https://s1.ax1x.com/2022/03/14/bXmzKe.png" alt="bXmzKe.png"></a></p>
+<p>物价水平是货币需求址的一个决定 因素。在物价较高时，每次要用较多的货币交换一种物品或服务，结果人 们将选择持有较多的货币。这就是说，较高的物价水平増加了利率既定 时的货币需求址。因此，如图<strong>34.2(a)<strong>幅所示，物价水平从</strong>P****1</strong>上升到当P2. 使货币需求曲线从<em>MD**1</em>向右移动到<em>MD**2</em></p>
+<p>货币需求的这种变动也会影响货币市场的均衝</p>
+<p>对于一定的货币供给来说，为了使货币供给与贷币需求平衡，利率必然上升。 因为较高的物价水平增加了人们想要持有的货币量，并使货币需求曲线 向右移动。但货币供给量并没有改变，因此利率必然从r1上升为r2，以抑制额外的货币需求。</p>
+<p>总结：利率分析三大步</p>
+<p>1.较高的物价水平增加了货币需求</p>
+<p>2.较高的货币需求引起了较高的利率</p>
+<p>3.较高的利率减少了物品与服务的需求量</p>
+<p>反之同理</p>
+<p>因此正如向右下方倾斜的总需求曲线所说明的那样，物价水平和物品与服务的需求量之间存在负相关关系</p>
+<p>货币供给的变动</p>
+<p>货币注入对总需求曲线位置的影响</p>
+<p>如图**34-3(a)**幅所示，货币供给的増加使货币供给曲线右移。由于货币需求曲线没有变，为了使貨币供给与货币需求平衡, 利率下降。这就是说,为了使人们持有美联储创造的额外货币， 利率必然要下降，以恢复货币市场上的均衡。</p>
+<p><a target="_blank" rel="noopener" href="https://imgtu.com/i/bXni5t"><img src="https://s1.ax1x.com/2022/03/14/bXni5t.png" alt="bXni5t.png"></a></p>
+<p>既可以根据货币供给，也可以根据利率来描述货币政策</p>
+<p>大总结：为了扩大总需求的货币政策变动&#x3D;货币供给增加或者利率降低</p>
+<p>​    为了紧缩总需求的货币政策变动&#x3D;货币供给减少或者利率提高</p>
+<p>财政政策如何影响总需求</p>
+<p>财政政策：政府决策者对政府支出和税收水平的确定</p>
+<p>乘数效应：当扩张性财政政策增加了收入，从而增加了消费支出时引起的总需求的额外变动</p>
+<p>（有点像利滚利滚利滚利，但是是正面的影响。比如政府像某公司下了一个大单子，这个公司工人收入，企业所有者利润增加，导致这个公司也会对应的在消费品的支出上花更多钱，这又带动了一波各行各业的产品需求。这一波需求可能远大于政府当时在次公司每订购的一个产品所花的钱，并且此效应还存在于接下里的几轮里）</p>
+<p><a target="_blank" rel="noopener" href="https://imgtu.com/i/bXn82T"><img src="https://s1.ax1x.com/2022/03/14/bXn82T.png" alt="bXn82T.png"></a></p>
+<p>支出乘数的公示：边际消费倾向（MPC）——家庭额外收入中用于消费而不用与储蓄的比例</p>
+<p>乘数&#x3D;1&#x2F;（1—MPC）</p>
+<p>乘数大小取决于边际消费倾向</p>
+<p>挤出效应：当财政扩张使利率上升时其所引起的总需求减少被称为挤出效应</p>
+<p><a target="_blank" rel="noopener" href="https://imgtu.com/i/bXn3GV"><img src="https://s1.ax1x.com/2022/03/14/bXn3GV.png" alt="bXn3GV.png"></a></p>
+<p>税收变动</p>
+<p>税收变动引起的总需求变动的幅度也要手乘数效应和挤出效应的影响</p>
+<p>当然了，根据人的心里，家庭对于税收变动是持久变动还是暂时变动的感觉也会很大的影响总需求增减。</p>
+<p><a target="_blank" rel="noopener" href="https://imgtu.com/i/bXnwI1"><img src="https://s1.ax1x.com/2022/03/14/bXnwI1.png" alt="bXnwI1.png"></a></p>
+<p><a target="_blank" rel="noopener" href="https://imgtu.com/i/bXnsxO"><img src="https://s1.ax1x.com/2022/03/14/bXnsxO.png" alt="bXnsxO.png"></a></p>
+<p><a target="_blank" rel="noopener" href="https://imgtu.com/i/bXnfII"><img src="https://s1.ax1x.com/2022/03/14/bXnfII.png" alt="bXnfII.png"></a></p>
+<p><a target="_blank" rel="noopener" href="https://imgtu.com/i/bXnIRf"><img src="https://s1.ax1x.com/2022/03/14/bXnIRf.png" alt="bXnIRf.png"></a></p>
+
+      
+    </div>
+    
+    
+    
+
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+      
+      
+
+      
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
+            
+              <a href="/2022/03/11/Reflection1/" rel="next" title="Reflection1">
+                <i class="fa fa-chevron-left"></i> Reflection1
+              </a>
+            
+          </div>
+
+          <span class="post-nav-divider"></span>
+
+          <div class="post-nav-prev post-nav-item">
+            
+              <a href="/2022/03/14/Quantitative-Analysis/" rel="prev" title="Quantitative Analysis">
+                Quantitative Analysis <i class="fa fa-chevron-right"></i>
+              </a>
+            
+          </div>
+        </div>
+      
+
+      
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+
+    <div class="post-spread">
+      
+    </div>
+  </div>
+
+
+          </div>
+          
+
+
+          
+
+  
+
+
+
+        </div>
+        
+          
+  
+  <div class="sidebar-toggle">
+    <div class="sidebar-toggle-line-wrap">
+      <span class="sidebar-toggle-line sidebar-toggle-line-first"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-middle"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-last"></span>
+    </div>
+  </div>
+
+  <aside id="sidebar" class="sidebar">
+    
+    <div class="sidebar-inner">
+
+      
+
+      
+
+      <section class="site-overview-wrap sidebar-panel sidebar-panel-active">
+        <div class="site-overview">
+          <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+            
+              <p class="site-author-name" itemprop="name"></p>
+              <p class="site-description motion-element" itemprop="description"></p>
+          </div>
+
+          <nav class="site-state motion-element">
+
+            
+              <div class="site-state-item site-state-posts">
+              
+                <a href="/archives/%20%7C%7C%20archive">
+              
+                  <span class="site-state-item-count">11</span>
+                  <span class="site-state-item-name">posts</span>
+                </a>
+              </div>
+            
+
+            
+
+            
+
+          </nav>
+
+          
+
+          
+
+          
+          
+
+          
+          
+
+          
+
+        </div>
+      </section>
+
+      
+
+      
+
+    </div>
+  </aside>
+
+
+        
+      </div>
+    </main>
+
+    <footer id="footer" class="footer">
+      <div class="footer-inner">
+        <div class="copyright">&copy; <span itemprop="copyrightYear">2022</span>
+  <span class="with-love">
+    <i class="fa fa-user"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">John Doe</span>
+
+  
+</div>
+
+
+  <div class="powered-by">Powered by <a class="theme-link" target="_blank" href="https://hexo.io">Hexo</a></div>
+
+
+
+  <span class="post-meta-divider">|</span>
+
+
+
+  <div class="theme-info">Theme &mdash; <a class="theme-link" target="_blank" href="https://github.com/iissnan/hexo-theme-next">NexT.Muse</a> v5.1.4</div>
+
+
+
+
+        
+
+
+
+
+
+
+
+        
+      </div>
+    </footer>
+
+    
+      <div class="back-to-top">
+        <i class="fa fa-arrow-up"></i>
+        
+      </div>
+    
+
+    
+
+  </div>
+
+  
+
+<script type="text/javascript">
+  if (Object.prototype.toString.call(window.Promise) !== '[object Function]') {
+    window.Promise = null;
+  }
+</script>
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+    <script type="text/javascript" src="/lib/jquery/index.js?v=2.1.3"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/fastclick/lib/fastclick.min.js?v=1.0.6"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/jquery_lazyload/jquery.lazyload.js?v=1.9.7"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/velocity/velocity.min.js?v=1.2.1"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/velocity/velocity.ui.min.js?v=1.2.1"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
+  
+
+
+  
+
+
+  <script type="text/javascript" src="/js/src/utils.js?v=5.1.4"></script>
+
+  <script type="text/javascript" src="/js/src/motion.js?v=5.1.4"></script>
+
+
+
+  
+  
+
+  
+  <script type="text/javascript" src="/js/src/scrollspy.js?v=5.1.4"></script>
+<script type="text/javascript" src="/js/src/post-details.js?v=5.1.4"></script>
+
+
+
+  
+
+
+  <script type="text/javascript" src="/js/src/bootstrap.js?v=5.1.4"></script>
+
+
+
+  
+
+
+  
+
+
+
+
+	
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+  
+
+  
+
+  
+  
+
+  
+  
+    <script type="text/x-mathjax-config">
+      MathJax.Hub.Config({
+        tex2jax: {
+          inlineMath: [ ['$','$'], ["\\(","\\)"]  ],
+          processEscapes: true,
+          skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']
+        }
+      });
+    </script>
+
+    <script type="text/x-mathjax-config">
+      MathJax.Hub.Queue(function() {
+        var all = MathJax.Hub.getAllJax(), i;
+        for (i=0; i < all.length; i += 1) {
+          all[i].SourceElement().parentNode.className += ' has-jax';
+        }
+      });
+    </script>
+    <script type="text/javascript" src="//cdn.bootcss.com/mathjax/2.7.1/latest.js?config=TeX-AMS-MML_HTMLorMML"></script>
+  
+
+
+  
+
+  
+
+</body>
+</html>
