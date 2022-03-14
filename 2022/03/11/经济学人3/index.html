@@ -1,37 +1,681 @@
-{% extends '_layout.swig' %}
-{% import '_macro/post.swig' as post_template %}
-{% import '_macro/sidebar.swig' as sidebar_template %}
+<!DOCTYPE html>
 
 
-{% block title %}{{ page.title }} | {{ config.title }}{% endblock %}
 
-{% block page_class %}page-post-detail{% endblock %}
+  
 
 
-{% block content %}
+<html class="theme-next muse use-motion" lang="en">
+<head>
+  <meta charset="UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+<meta name="theme-color" content="#222">
+
+
+
+
+
+
+
+
+
+<meta http-equiv="Cache-Control" content="no-transform" />
+<meta http-equiv="Cache-Control" content="no-siteapp" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  <link href="/lib/fancybox/source/jquery.fancybox.css?v=2.1.5" rel="stylesheet" type="text/css" />
+
+
+
+
+
+
+
+<link href="/lib/font-awesome/css/font-awesome.min.css?v=4.6.2" rel="stylesheet" type="text/css" />
+
+<link href="/css/main.css?v=5.1.4" rel="stylesheet" type="text/css" />
+
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png?v=5.1.4">
+
+
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png?v=5.1.4">
+
+
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png?v=5.1.4">
+
+
+  <link rel="mask-icon" href="/images/logo.svg?v=5.1.4" color="#222">
+
+
+
+
+
+  <meta name="keywords" content="Hexo, NexT" />
+
+
+
+
+
+
+
+
+
+
+<meta name="description" content="Reading Date: 2021-10-24 Article: Precisionism: In search of resilience Link: https:&#x2F;&#x2F;www.economist.com&#x2F;special-report&#x2F;2021&#x2F;10&#x2F;06&#x2F;in-search-of-resilience Excerpt: (1) He found himself competing for Am">
+<meta property="og:type" content="article">
+<meta property="og:title" content="经济学人3">
+<meta property="og:url" content="http://example.com/2022/03/11/%E7%BB%8F%E6%B5%8E%E5%AD%A6%E4%BA%BA3/index.html">
+<meta property="og:site_name" content="Hexo">
+<meta property="og:description" content="Reading Date: 2021-10-24 Article: Precisionism: In search of resilience Link: https:&#x2F;&#x2F;www.economist.com&#x2F;special-report&#x2F;2021&#x2F;10&#x2F;06&#x2F;in-search-of-resilience Excerpt: (1) He found himself competing for Am">
+<meta property="og:locale" content="en_US">
+<meta property="og:image" content="https://s1.ax1x.com/2022/03/11/bIq2LT.png">
+<meta property="article:published_time" content="2022-03-11T08:49:52.000Z">
+<meta property="article:modified_time" content="2022-03-11T09:14:38.624Z">
+<meta property="article:author" content="John Doe">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://s1.ax1x.com/2022/03/11/bIq2LT.png">
+
+
+
+<script type="text/javascript" id="hexo.configurations">
+  var NexT = window.NexT || {};
+  var CONFIG = {
+    root: '',
+    scheme: 'Muse',
+    version: '5.1.4',
+    sidebar: {"position":"left","display":"post","offset":12,"b2t":false,"scrollpercent":false,"onmobile":false},
+    fancybox: true,
+    tabs: true,
+    motion: {"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},
+    duoshuo: {
+      userId: '0',
+      author: 'Author'
+    },
+    algolia: {
+      applicationID: '',
+      apiKey: '',
+      indexName: '',
+      hits: {"per_page":10},
+      labels: {"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}
+    }
+  };
+</script>
+
+
+
+  <link rel="canonical" href="http://example.com/2022/03/11/经济学人3/"/>
+
+
+
+
+
+  <title>经济学人3 | Hexo</title>
+  
+
+
+
+
+
+
+
+
+<meta name="generator" content="Hexo 6.0.0"></head>
+
+<body itemscope itemtype="http://schema.org/WebPage" lang="en">
+
+  
+  
+    
+  
+
+  <div class="container sidebar-position-left page-post-detail">
+    <div class="headband"></div>
+
+    <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-wrapper">
+  <div class="site-meta ">
+    
+
+    <div class="custom-logo-site-title">
+      <a href="/"  class="brand" rel="start">
+        <span class="logo-line-before"><i></i></span>
+        <span class="site-title">Hexo</span>
+        <span class="logo-line-after"><i></i></span>
+      </a>
+    </div>
+      
+        <p class="site-subtitle"></p>
+      
+  </div>
+
+  <div class="site-nav-toggle">
+    <button>
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+    </button>
+  </div>
+</div>
+
+<nav class="site-nav">
+  
+
+  
+    <ul id="menu" class="menu">
+      
+        
+        <li class="menu-item menu-item-home">
+          <a href="/%20" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-home"></i> <br />
+            
+            Home
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-archives">
+          <a href="/archives/%20" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-archive"></i> <br />
+            
+            Archives
+          </a>
+        </li>
+      
+
+      
+    </ul>
+  
+
+  
+</nav>
+
+
+
+ </div>
+    </header>
+
+    <main id="main" class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          <div id="content" class="content">
+            
 
   <div id="posts" class="posts-expand">
-    {{ post_template.render(page) }}
+    
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://example.com/2022/03/11/%E7%BB%8F%E6%B5%8E%E5%AD%A6%E4%BA%BA3/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Hexo">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">经济学人3</h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">Posted on</span>
+              
+              <time title="Post created" itemprop="dateCreated datePublished" datetime="2022-03-11T16:49:52+08:00">
+                2022-03-11
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        <p><strong>Reading Date</strong>: 2021-10-24</p>
+<p><strong>Article</strong>: <strong>Precisionism: In search of resilience</strong></p>
+<p><strong>Link</strong>: <a target="_blank" rel="noopener" href="https://www.economist.com/special-report/2021/10/06/in-search-of-resilience">https://www.economist.com/special-report/2021/10/06/in-search-of-resilience</a></p>
+<p><strong>Excerpt</strong>:</p>
+<p>(1) He found himself competing for American customers with Chinese companies selling masks for less than they cost to ship. Without government intervention, he warned that America would again face shortages of crucial protective equipment.</p>
+<p>(2) The virus came with a flurry of export restrictions on medical products and a plunge in Chinese exports that raised doubts over whether its production clusters had exposed the world to excessive risk.</p>
+<p>(3) But inflation has now popped up as often as logistics, so the emphasis on just-in-case rather than just-in-time may prove fleeting.</p>
+<p>(4) Indeed, the Biden administration has blamed some vulnerabilities on the drive for corporate efficiency, and a goal of greater resilience now frames its trade policy.</p>
+<p>(5) Many poor countries worry that the pandemic has exposed long-standing vulnerabilities that are hard to fix, most obviously their dependence on tourism. But in richer places the policy responses will involve a grab for three things: facts, friends and fortification.</p>
+<p>(6) The extent of dependence will vary according to domestic production, the concentration of foreign sourcing and the availability of close substitutes.</p>
+<p>(7) As important as knowing what is made and imported is knowing what could be made or procured in a pinch. Such information is even harder to find.</p>
+<p>(8) Policymakers appear to be coalescing around a set of products of particular concern: electric vehicles, active pharmaceutical ingredients, semiconductors and rare earths.</p>
+<p>(9) The second strand of actions to foster resilience involves bolstering alliances between like-minded allies, to diversify and “friend-shore” production away from China.</p>
+<p>(10) The third prong of governments’ quest for greater resilience involves fortifying domestic economies. This implies sharpening defensive trade tools.</p>
+<p>(11) The “Buy America” laws that the Biden administration hopes to strengthen will further reduce foreign access to a massive public-procurement market.</p>
+<p>(12) The innovation and competition bill before Congress </p>
+<p>includes a supply-chain resilience program to restore production of personal protective equipment and medicines.</p>
+<p>(13) In the pandemic, the fear was that foreign suppliers might protect national interests at the expense of trade flows.</p>
+<p>(14) Many politicians now believe that in a crisis foreign suppliers are unreliable.</p>
+<p>(15) Mr Everett worries that these behind-the-border measures will further distort trade. Places already comfortable with the idea of localizing production may be emboldened.</p>
+<p>(16) If governments successfully foster critical industries, their alliances will go from nice to necessary. For when supply shoots up, prices crash and everyone tries to export the same subsidized products, trade tensions quickly increase.</p>
+<p><a target="_blank" rel="noopener" href="https://imgtu.com/i/bIq2LT"><img src="https://s1.ax1x.com/2022/03/11/bIq2LT.png" alt="bIq2LT.png"></a></p>
+<p><strong>Thoughts</strong>:</p>
+<p>这一篇新闻虽然讲的是政府对本国某些产业进行大规模的补贴，但和传统意义上所学的protectionism还不太一样，因为之前的保护主义都是为了保护自己产业里的企业不会倒闭、不会导致大规模的失业等等，但这里其实更偏向于一些政治因素，即非常重要的产业（半导体、医药、土地资源等等）需要被本国重视，并通过补贴的方式使得本国的这些产业不会因为外国的竞争力很强而导致过度依赖，而很多国家之所以在今年开始注意这个问题，就是因为中国在疫情爆发后限制本国“口罩”和“医药用品”等产业的出口，导致其他国家因为这些物资短缺而惊慌失措。所以这其实是一个更加偏向于政治学的话题。在阅读这个文章的过程中我发现，international trade实在是一个非常庞大并且复杂的话题，如果想要在这个研究方向上有创新性的研究可能会十分困难。我们可以通过阅读、调查等等方式对国际贸易和国际经济学这一领域进行了解，然后我们的论文标题就可以是《新冠疫情下的国际经济》（我这只是举了个例子），意思就是说，我们可以做类似于case study的工作，然后在我们的论文或者书中对当下的国际经济关系进行阐述、解释和分析，而不是非要创造理论，或者非要提出一些具有创新性、前瞻性、实用性的结论和方法。</p>
+
+      
+    </div>
+    
+    
+    
+
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+      
+      
+
+      
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
+            
+              <a href="/2022/03/11/%E7%BB%8F%E6%B5%8E%E5%AD%A6%E4%BA%BA2/" rel="next" title="经济学人2">
+                <i class="fa fa-chevron-left"></i> 经济学人2
+              </a>
+            
+          </div>
+
+          <span class="post-nav-divider"></span>
+
+          <div class="post-nav-prev post-nav-item">
+            
+              <a href="/2022/03/11/Bilibili/" rel="prev" title="Bilibili">
+                Bilibili <i class="fa fa-chevron-right"></i>
+              </a>
+            
+          </div>
+        </div>
+      
+
+      
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
 
     <div class="post-spread">
-      {% if theme.jiathis %}
-        {% include '_partials/share/jiathis.swig' %}
-      {% elseif theme.baidushare %}
-        {% include '_partials/share/baidushare.swig' %}
-      {% elseif theme.add_this_id %}
-        {% include '_partials/share/add-this.swig' %}
-      {% elseif theme.duoshuo_shortname and theme.duoshuo_share %}
-        {% include '_partials/share/duoshuo_share.swig' %}
-      {% endif %}
+      
     </div>
   </div>
 
-{% endblock %}
 
-{% block sidebar %}
-  {{ sidebar_template.render(true) }}
-{% endblock %}
+          </div>
+          
 
-{% block script_extra %}
-  {% include '_scripts/pages/post-details.swig' %}
-{% endblock %}
+
+          
+
+  
+
+
+
+        </div>
+        
+          
+  
+  <div class="sidebar-toggle">
+    <div class="sidebar-toggle-line-wrap">
+      <span class="sidebar-toggle-line sidebar-toggle-line-first"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-middle"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-last"></span>
+    </div>
+  </div>
+
+  <aside id="sidebar" class="sidebar">
+    
+    <div class="sidebar-inner">
+
+      
+
+      
+
+      <section class="site-overview-wrap sidebar-panel sidebar-panel-active">
+        <div class="site-overview">
+          <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+            
+              <p class="site-author-name" itemprop="name"></p>
+              <p class="site-description motion-element" itemprop="description"></p>
+          </div>
+
+          <nav class="site-state motion-element">
+
+            
+              <div class="site-state-item site-state-posts">
+              
+                <a href="/archives/%20%7C%7C%20archive">
+              
+                  <span class="site-state-item-count">9</span>
+                  <span class="site-state-item-name">posts</span>
+                </a>
+              </div>
+            
+
+            
+
+            
+
+          </nav>
+
+          
+
+          
+
+          
+          
+
+          
+          
+
+          
+
+        </div>
+      </section>
+
+      
+
+      
+
+    </div>
+  </aside>
+
+
+        
+      </div>
+    </main>
+
+    <footer id="footer" class="footer">
+      <div class="footer-inner">
+        <div class="copyright">&copy; <span itemprop="copyrightYear">2022</span>
+  <span class="with-love">
+    <i class="fa fa-user"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">John Doe</span>
+
+  
+</div>
+
+
+  <div class="powered-by">Powered by <a class="theme-link" target="_blank" href="https://hexo.io">Hexo</a></div>
+
+
+
+  <span class="post-meta-divider">|</span>
+
+
+
+  <div class="theme-info">Theme &mdash; <a class="theme-link" target="_blank" href="https://github.com/iissnan/hexo-theme-next">NexT.Muse</a> v5.1.4</div>
+
+
+
+
+        
+
+
+
+
+
+
+
+        
+      </div>
+    </footer>
+
+    
+      <div class="back-to-top">
+        <i class="fa fa-arrow-up"></i>
+        
+      </div>
+    
+
+    
+
+  </div>
+
+  
+
+<script type="text/javascript">
+  if (Object.prototype.toString.call(window.Promise) !== '[object Function]') {
+    window.Promise = null;
+  }
+</script>
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+    <script type="text/javascript" src="/lib/jquery/index.js?v=2.1.3"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/fastclick/lib/fastclick.min.js?v=1.0.6"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/jquery_lazyload/jquery.lazyload.js?v=1.9.7"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/velocity/velocity.min.js?v=1.2.1"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/velocity/velocity.ui.min.js?v=1.2.1"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
+  
+
+
+  
+
+
+  <script type="text/javascript" src="/js/src/utils.js?v=5.1.4"></script>
+
+  <script type="text/javascript" src="/js/src/motion.js?v=5.1.4"></script>
+
+
+
+  
+  
+
+  
+  <script type="text/javascript" src="/js/src/scrollspy.js?v=5.1.4"></script>
+<script type="text/javascript" src="/js/src/post-details.js?v=5.1.4"></script>
+
+
+
+  
+
+
+  <script type="text/javascript" src="/js/src/bootstrap.js?v=5.1.4"></script>
+
+
+
+  
+
+
+  
+
+
+
+
+	
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+  
+
+  
+
+  
+  
+
+  
+  
+    <script type="text/x-mathjax-config">
+      MathJax.Hub.Config({
+        tex2jax: {
+          inlineMath: [ ['$','$'], ["\\(","\\)"]  ],
+          processEscapes: true,
+          skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']
+        }
+      });
+    </script>
+
+    <script type="text/x-mathjax-config">
+      MathJax.Hub.Queue(function() {
+        var all = MathJax.Hub.getAllJax(), i;
+        for (i=0; i < all.length; i += 1) {
+          all[i].SourceElement().parentNode.className += ' has-jax';
+        }
+      });
+    </script>
+    <script type="text/javascript" src="//cdn.bootcss.com/mathjax/2.7.1/latest.js?config=TeX-AMS-MML_HTMLorMML"></script>
+  
+
+
+  
+
+  
+
+</body>
+</html>
